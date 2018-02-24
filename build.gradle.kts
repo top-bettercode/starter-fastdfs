@@ -1,3 +1,5 @@
+import sun.security.pkcs.PKCS8Key.version
+
 val kotlinVersion = "1.2.10"
 
 
@@ -5,12 +7,12 @@ plugins {
     idea
     kotlin("jvm") version "1.2.10"
     kotlin("plugin.spring") version "1.2.10"
-    id("cn.bestwu.kotlin-publish") version "0.0.15"
+    id("cn.bestwu.kotlin-publish") version "0.0.17"
     id("org.springframework.boot") version "1.5.9.RELEASE"
 }
 
 group = "cn.bestwu"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.1"
 
 idea {
     module {
